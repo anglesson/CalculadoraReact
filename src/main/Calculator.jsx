@@ -34,7 +34,7 @@ export default class Calculator extends Component {
             const values = [...this.state.values]
             try {
                 values[0] = eval(`${values[0]} ${currentOperation} ${values[1]}`)
-            } catch(e) {
+            } catch (e) {
                 values[0] = this.state.values[0]
             }
             values[1] = 0
@@ -50,12 +50,12 @@ export default class Calculator extends Component {
     }
 
     addDigit(n) {
-        // Valida se há mais de um ponto
+        // Valida se há ponto
         if (n === '.' && this.state.displayValue.includes('.')) {
             return
         }
 
-        const clearDisplay = this.state.displayValue === '0' || this.state.clearDisplay 
+        const clearDisplay = this.state.displayValue === '0' || this.state.clearDisplay
         const currentValue = clearDisplay ? '' : this.state.displayValue
         const displayValue = currentValue + n
 
