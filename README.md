@@ -1,18 +1,14 @@
-# Calculadora (Comandos Básicos) - React
-## Projeto desenvolvido com intuito de aprender mais sobre o React.
+# 🧮 Calculadora - React
+## Realização das operações básicas
 
-Índice
-=================
-<!--ts-->
-   * [Instalação](#Sobre)
-   * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Instalação](#instalacao)
-   * [Como usar](#como-usar)
-    * [Pre Requisitos](#pre-requisitos)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-   * [Tests](#testes)
-   * [Tecnologias](#tecnologias)
-<!--te-->
+> Status do Projeto: Concluido :heavy_check_mark:
+
+### Funcionalidades
+
+- [x] Soma
+- [x] Subtração
+- [x] Divisão
+- [x] Multiplicação
+
+### Como rodar a aplicação
+
